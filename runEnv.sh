@@ -1,0 +1,1 @@
+./AirSimNH/LinuxNoEditor/AirSim.sh
