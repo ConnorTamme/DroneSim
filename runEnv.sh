@@ -1,1 +1,1 @@
-./AirSimNH/LinuxNoEditor/AirSim.sh
+./AirSimNH/LinuxNoEditor/AirSimNH.sh

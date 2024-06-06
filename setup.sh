@@ -13,7 +13,7 @@ pip install tensorboard
 wget https://github.com/microsoft/AirSim/releases/download/v1.8.1/AirSimNH.zip
 unzip ./AirSimNH.zip
 rm -f AirSimNH.zip
-sed '5s/$/ -graphicsadapter=1/' ./AirSimNH/LinuxNoEditor/AirSimNH.sh file.tmp
+sed '5s/$/ -graphicsadapter=1/' ./AirSimNH/LinuxNoEditor/AirSimNH.sh > file.tmp
 chmod 740 file.tmp
 mv file.tmp ./AirSimNH/LinuxNoEditor/AirSimNH.sh
 
